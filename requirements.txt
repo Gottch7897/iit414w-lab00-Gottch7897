@@ -1,11 +1,14 @@
-fastf1==3.8.1
-ipython==9.6.0
-matplotlib==3.10.8
-numpy==2.4.3
-pandas==3.0.1
-Requests==2.32.5
-scikit_learn==1.8.0
-seaborn==0.13.2
-urllib3==2.6.3
-jinja2==3.1.6
+# Required packages for course notebooks (data_check.ipynb, setup_check.ipynb)
+#
+# Recommended install procedure (Windows PowerShell):
+#   py -m venv .venv
+#   .\.venv\Scripts\Activate.ps1
+#   python -m pip install --upgrade pip
+#   python -m pip install -r requirements.txt
 
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+fastf1>=3.3
+matplotlib>=3.8
+seaborn>=0.13

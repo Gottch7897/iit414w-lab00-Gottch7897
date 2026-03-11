@@ -1,0 +1,14 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Data caches (including FastF1 cache)
+.cache/
+**/.cache/
+cache/
+*_cache/
+data/fastf1_cache/
